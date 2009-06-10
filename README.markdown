@@ -13,7 +13,7 @@ The extra flavors provided by Flavoured Markdown:
 * Except for A tags that have no on* attributes
 * And except for BR tags
 * HTML entities are alllowed (e.g.: &copy;, &amp;, etc.)
-* URLS and emails are automatically hyperlinked. Long hyperlinks are automatically limited to 55 characters.
+* URLs and emails are automatically hyperlinked. Long hyperlinks are automatically limited to 55 characters.
 * Three consecutive dots are replaced by an ellipsis character
 * Fancy pants mode
 * Prevents paragraphs and list items from having an <a href='http://en.wikipedia.org/wiki/Widows_and_orphans'>orphan</a>.
@@ -30,8 +30,8 @@ Requirements
 
 This gem/plugin depends on the rdiscount and actionpack gems. To install, run:
 
-   $ sudo gem install rdiscount
-   $ sudo gem install actionpack
+    $ sudo gem install rdiscount
+    $ sudo gem install actionpack
 
 
 Installation

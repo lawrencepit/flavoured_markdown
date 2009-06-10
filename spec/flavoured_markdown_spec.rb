@@ -1,6 +1,10 @@
 require File.dirname(__FILE__) + '/spec_helper'
 
 describe "Flavoured Markdown" do
+  it "should give yanks some love" do
+    flavored_markdown("Foo").should == flavoured_markdown("Foo")
+  end
+  
   it "should markdown" do
     flavoured_markdown("Foo\n\nBar").should == "<p>Foo</p>\n\n<p class=\"last\">Bar</p>\n"
   end
