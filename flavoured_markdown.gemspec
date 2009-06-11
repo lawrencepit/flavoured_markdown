@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name         = "flavoured_markdown"
-  s.version      = "0.5.2"
+  s.version      = "0.5.3"
   s.author       = "Lawrence Pit"
   s.email        = "lawrence.pit@gmail.com"
   s.homepage     = "http://github.com/lawrencepit/flavoured_markdown"
