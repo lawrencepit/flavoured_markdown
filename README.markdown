@@ -43,7 +43,7 @@ Use this if you prefer to use versioned releases of Flavoured Markdown.
 Specify the gem dependency in your config/environment.rb file:
 
     Rails::Initializer.run do |config|
-      config.gem "lawrencepit-flavoured_markdown", :lib => "flavoured_markdown", :source => "http://gems.github.com"
+      config.gem "flavoured_markdown", :source => "http://gemcutter.org"
     end
 
 Then:
